@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.compose {
+  display: none;
+  margin: 0px 20px;
+}
+
+.compose form {
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+}
+
+.new-tweet {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 100%;
+}
+
+.tweet-input {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#tweet-field {
+  font-weight: 300;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid black;
+}
+
+.compose label {
+  font-weight: 700;
+}
+
+.tweet-btn {
+  font-family: 'Bungee', sans-serif;
+  width: 200;
+  height: 100;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #4056a1;
+  color: white;
+  cursor: pointer;
+}
+
+.tweet-btn:hover {
+  background-color: #5f80ed;
+  box-shadow: 2px 5px 8px #888888;
+}
+
+.tweet-btn:disabled {
+  box-shadow: none;
+  background-color: gray;
+  cursor: default;
+}
+
+.compose form footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.compose form footer output {
+  font-family: 'Bungee', sans-serif;
+}
+
+.compose .error {
+  display: none;
+  justify-content: space-around;
+  height: 0;
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  color: white;
+  background-color: #4056a1;
+  border-radius: 40px;
+}
