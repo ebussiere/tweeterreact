@@ -71,9 +71,9 @@ function App() {
       </main>
       
       <footer>
-        <button className="bottom-toggle">
+        {/* <button className="bottom-toggle">
           <i className="fas fa-angle-double-up" />
-        </button>
+        </button> */}
       </footer>
     </div>
   );
